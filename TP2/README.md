@@ -1,8 +1,10 @@
 # TP 2: Triangle
 
-## 1. Objetive
+## 1. Objective
 
 The objective of this TP is to draw a triangle using OpenGL. The triangle must be drawn using the following functions:
+
+For this project, I followed the LearnOpenGL Tutorial: [Hello Triangle](https://learnopengl.com/Getting-started/Hello-Triangle) tutorial.
 
 ## 2. Requirements
 
@@ -31,7 +33,7 @@ To generate the loader, go to the [GLAD](https://glad.dav1d.de/) website and con
 - API: gl Version 3.3
 - Profile: Core
 
-Then click on Generate and download the zip file. Unzip the file and copy the include folder and the src folder to the project folder.
+Then click on ``Generate`` and download the zip file. Unzip the file and copy the include folder and the src folder to the project folder.
 
 ## 3. Seting up Visual Studio Code
 
