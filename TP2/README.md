@@ -1,8 +1,8 @@
-# TP 1: Hello World
+# TP 2: Triangle
 
 ## 1. Objetive
 
-The objective of this TP is to create a simple program in C that prints "Hello World" on the screen using OpenGL.
+The objective of this TP is to draw a triangle using OpenGL. The triangle must be drawn using the following functions:
 
 ## 2. Requirements
 
@@ -17,6 +17,21 @@ For macOS, GLFW is available through Homebrew:
 ```bash
 brew install glfw
 ```
+
+#### GLAD
+
+GLAD is a library that loads OpenGL functions at runtime. It is available for Windows, Linux, Mac OS X, and BSD systems. It is licensed under the MIT license.
+
+GLAD requires a loader to load OpenGL functions at runtime. GLFW, SDL, SFML, and other similar libraries provide loaders for OpenGL functions. However, GLAD provides its own loader, which is what we will use in this TP.
+
+To generate the loader, go to the [GLAD](https://glad.dav1d.de/) website and configure it as follows:
+
+- Language: C/C++
+- Specification: OpenGL
+- API: gl Version 3.3
+- Profile: Core
+
+Then click on Generate and download the zip file. Unzip the file and copy the include folder and the src folder to the project folder.
 
 ## 3. Seting up Visual Studio Code
 
