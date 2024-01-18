@@ -9,7 +9,7 @@ int main(void)
         return -1;
 
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
+    window = glfwCreateWindow(800, 800, "Bruno Luiz Dias Alves de Castro", NULL, NULL);
     if (!window)
     {
         glfwTerminate();
@@ -22,7 +22,7 @@ int main(void)
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window))
     {
-        /* Render here */
+        glClearColor(0.0f, 0.0f, 1.0f, 1.0f); // blue background
         glClear(GL_COLOR_BUFFER_BIT);
 
         /* Swap front and back buffers */
@@ -30,6 +30,13 @@ int main(void)
 
         /* Poll for and process events */
         glfwPollEvents();
+
+        // check if the user pressed the 'E' key
+        if(glfwGetKey(window, GLFW_KEY_E) == GLFW_PRESS)
+        {
+            // exit program
+            glfwSetWindowShouldClose(window, true);
+        }
     }
 
     glfwTerminate();
