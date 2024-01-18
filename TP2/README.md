@@ -1,8 +1,8 @@
-# TP 2: Triangle
+# TP 2: Triangles
 
 ## 1. Objective
 
-The objective of this TP is to draw a triangle using OpenGL. The triangle must be drawn using the following functions:
+The objective of this TP is to draw three triangles using OpenGL. The triangles must be drawn using the following functions:
 
 For this project, I followed the LearnOpenGL Tutorial: [Hello Triangle](https://learnopengl.com/Getting-started/Hello-Triangle) tutorial.
 
