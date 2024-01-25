@@ -2,9 +2,7 @@
 
 ## 1. Objective
 
-The objective of this TP is to draw three triangles using OpenGL. The triangles must be drawn using the following functions:
-
-For this project, I followed the LearnOpenGL Tutorial: [Hello Triangle](https://learnopengl.com/Getting-started/Hello-Triangle) tutorial.
+The objective of this TP is to learn how to use shaders to render a scene with three triangles of different colors.
 
 ## 2. Requirements
 
